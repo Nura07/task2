@@ -1,0 +1,661 @@
+body
+{
+    max-width: 100%;
+    margin:0px;
+}
+
+    .maincontainer
+    {
+       
+      
+        max-width: 100%;
+     
+    }
+    .top_strip{
+        background-color:rgb(9, 9, 73);
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+    .top_icons_left span,.top_icons_right span{
+        font-family: 'Poppins';
+        font-size: 14px;
+        color: #fff;
+        border-right: 1px solid #052980;
+        display: inline-block;
+        padding: 15px 11px;
+    }
+    .top_icons_left span a,.top_icons_right span a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .top_icons_right span:last-child{
+        border-right: none;
+    }
+    .top_icons_left{
+        float: left;
+    }
+    .top_icons_right{
+        float: right;
+    }
+    
+    .top_icons_left i{
+        color: #fff;
+        font-size: 16px;
+        padding: 0px 8px;
+        transition:all ease .5s;
+    }
+    .top_icons_left i:hover{
+     color:#6a96ff;
+     transition:all ease .5s;
+    }
+    #mobileicon{
+        display: none;
+    }
+    .headerdiv
+    {
+        width: 100%;
+        float: left;    
+    }
+    .logoicon
+    {
+        width: 50%;
+        float: left;
+        padding-left: 5%;      
+    }
+    .menu
+    {
+        font-family:'Poppins';
+        float: right;
+        padding-right: 40px;
+        padding-top: 10px;   
+    }
+    .menu ul li a
+    {
+        float: left;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 20px;
+        border-bottom: 4px solid #6a96ff;   
+    }
+    .menu ul li a:hover
+    {
+        font-size: 22px;
+        transition: all ease 5s;
+        border-bottom: 4px solid #6a96ff;
+    }
+    .menu ul li
+    {
+        display: inline-block;   
+    }
+    .bannerimage
+    {
+        max-width: 100%;
+        position: relative;
+    }
+    .banner_content
+    {
+        position: absolute;
+        top: 60%;
+        left: 100px;
+        line-height: 60px;
+    }
+    .banner_content button
+    {
+        padding: 10px;
+        background-color: #05afed;
+        border-radius: 20px;
+    }
+    .mainbanner1
+    {
+        width: 50%;
+        
+        float:left;
+    }
+    .smallbanner1
+    {
+        width:100%;   
+        padding-left:3px;
+        display: inline-block;
+    }
+    .smallbanner2
+    {
+        width: 100%;
+        padding-left: 5px;
+        padding-top: 20px;   
+    }
+    .mainbanner2
+    {
+        width: 50%;
+        float: left;
+    }
+    .aboutlogo
+    {
+        max-width: 100%;
+        height: 100%;
+    }
+    .smallbannertext1
+    {
+        width: 100%;
+        float: left;
+        padding-left: 20px;
+        font-family: 'Poppins';
+    }
+    .smallbannertext2
+    {
+        border-right: 2px solid;   
+        width: 30%;
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .smallbannertext3
+    {
+        width: 66%;
+        float: left;
+    
+    }
+    .learnmore
+    {
+        width: 100%;
+       
+        float: left;
+
+    }
+    .learnmore span
+    {
+       
+        background-color: blue;
+        margin-left:40px ;
+        border-radius: 10px;
+    }
+    .learnmore span a
+    {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-family: 'Poppins';
+       
+    }
+    .smallbannertext3 p
+    {
+        padding-left: 10px;
+        font-size: 20px;
+        font-family:'Poppins';
+        
+    }
+    .smallbannertext2 p
+    {
+        
+        font-family:'Poppins';
+        padding-left: 20px;
+        color: dodgerblue;
+        font-weight:bolder;
+        
+    }
+    .smallbannertext1 p
+    {
+        font-size: 20px;
+        color: gray;
+        font-family:'Poppins';
+    }
+    .smallbannertext1 h1 
+    {
+        font-size: 36px;
+        font-family:'Poppins';
+        color: rgb(115, 176, 255);
+    }
+    .smallbannertext1 h4
+    {
+        font-size: 26px;
+        font-family:'Poppins';
+        
+    }
+    
+    
+    .bannerbutton 
+    {
+        margin-top: 10px;
+        font-size: 20px;
+        padding-bottom: 10px;
+        border-width: 1px;
+        margin-left: 20px;
+        background-color: dodgerblue;
+        border-radius: 10px;
+        color: white;
+    
+        
+    }
+    
+    .tablecontainer
+    {
+        width: 100%;
+        
+        float: left;
+        
+    }
+    .servicecontainer
+    {
+        width:100%;
+        margin-bottom: 40px;
+        float: left;
+        
+    }
+    .serviceheading
+    {
+        width: 30%;
+        padding-left: 20px;
+        float: left;
+        
+        padding-top: 10px;
+        
+    }
+    .serviceheading p
+    {
+        font-size: 22px;
+        font-family:'Poppins';
+        color: #09aef0;
+        margin-left: 20px;
+    }
+    .serviceheading h1
+    {
+        font-family:'Poppins';
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .servicedetail
+    {
+        width:60%;
+        padding-left: 10px;
+        padding-top: 20px;
+        
+        float: left;
+        
+    }
+    .servicedetail p
+    {
+        font-size: 18px;
+        font-family:'Poppins';
+    }
+    .minitablecontainer
+    {
+        
+        width: 100%;
+       
+        display: flex;
+        
+    }
+    .table1
+    {
+        width: 30%;
+        height: 50%;
+        
+        float: left;
+        background-color: rgb(158, 218, 241);
+        padding-left: 20px;
+        margin-left: 15px;
+        border-radius: 4px;
+        font-family:'Poppins';
+        margin-bottom: 10px;
+        padding-bottom: 100px;
+        padding-top: 20px;
+        
+    }
+    .table1button
+    {
+        font-family:'Poppins';
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-left: 80px;
+        background-color: #05afed;
+        border-radius: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: white;
+
+    }
+    .table1 p{
+        font-family: 'Poppins';
+        font-size:18px;
+        color: gray;
+    }
+    .table2 p{
+        
+        font-size: 18px;
+        color: gray;
+    }
+    .table3 p{
+        color: gray;
+        font-size: 18px;
+    }
+    .table4 p{
+        color: gray;
+        font-size: 18px;
+    }
+    .table5 p{
+        color: gray;
+        font-size: 18px;
+    }
+    .table6 p{
+        color: gray;
+        font-size: 18px;
+    }
+    .table2
+    {
+        width: 30%;
+        height: 50%;
+        float: left;
+        background-color: #dbf3fd;
+        padding-left: 20px;
+        margin-left: 15px;
+        border-radius: 4px;
+        font-family:'Poppins';
+        margin-bottom: 10px;
+        
+    }
+    .table3 
+    {
+        width: 30%;
+        height: 50%;
+        float: left;
+        background-color: #dbf3fd;
+        margin-left: 20px;
+        padding-left: 20px;
+        border-radius: 4px;
+        font-family:'Poppins';
+        margin-bottom: 10px;
+        
+    }
+    .minitablecontainer2
+    {
+        width: 100%;
+        float: left;
+    }
+    .table4
+    {
+        width: 30%;
+        height: 50%;
+        float: left;
+        background-color:#dbf3fd;
+        margin-top: 20px;
+        margin-left: 15px;
+        padding-left: 20px;
+        border-radius: 4px;
+        font-family:'Poppins';
+        
+    }
+    .table5
+    {
+        width: 30%;
+        height: 50%;
+        float: left;
+        background-color: #dbf3fd;
+        margin-left: 15px;
+        margin-top: 20px;
+        padding-left: 20px;
+        border-radius: 4px;
+        font-family:'Poppins';
+        
+    }
+    .table6 
+    {
+        width: 30%;
+        height: 50%;
+        float: left;
+        background-color: #dbf3fd;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-left: 20px;
+        border-radius: 4px;
+        font-family:'Poppins';
+        
+        
+    }
+    .minitablebutton
+    {
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+       
+
+    }
+    .viewservicebutton
+    {
+        font-family:'Poppins';
+        font-size: 20px;
+        font-weight:bold ;
+        background-color: #06aeed;
+        border-radius: 10px;
+        margin-left: 45%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+
+    }
+    .maintablecontainer2
+    {
+        width: 100%;
+        
+        
+        margin-top: 30px;
+        float: left;
+        
+
+    }
+    .minitablebanner1
+    {
+        width: 100%;
+        float: left;
+        margin-bottom:30px ;
+    }
+    .portfolioheading
+    {
+        width: 40%;
+        float: left;
+        font-family:'Poppins';
+        margin-left: 20px;
+        
+        
+    }
+    .portfoli0details
+    {
+        width:50%;
+        margin-left: 30px;
+        float: left;
+        font-family:'Poppins';
+        font-size: 18px;
+        color:gray ;
+    }
+    .minitablebanner2
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .minitablebanner2 img
+    {
+        margin-left: 25%;
+    }
+    .minitablebanner3
+    {
+        width: 100%;
+
+    }
+    .banner3button
+    {
+        font-family:'Poppins';
+        font-size: 22px;
+        background-color: #06aeed;
+        border-radius: 5px;
+        margin-left: 40%;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+    .maintablecontainer3
+    {
+        width:100%;
+        background-color: #051433;
+        float: left;
+    }
+    .minitablediv1
+    {
+        width:40%;
+        float: left;
+        background-color: #0e4b84;
+        color: white;
+
+
+    }
+    .minitablediv1:hover
+    {
+        color:black ;
+        background-image: url(Images/slider_img.jpg);
+    }
+    
+    .minitablediv1 h3 {
+        font-family: 'Poppins';
+        font-size: 22px;
+        font-weight: bold;
+        padding-left: 100px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .minitablediv2
+    {
+        width:60%;
+        float: left;
+        background-color: #051433;
+        margin-top: 20px;
+        
+        
+    }
+    .minitablediv2text1
+    {
+        border:7px 10px 5px 10px;
+        margin-left: 100px;
+        margin-top: 70px;
+        font-size: 20px;
+        font-family:'Poppins';
+        float: left;
+
+    }
+    .minitablediv2text2
+    {
+        border:5px 10px 5px 10px;
+        margin-left: 100px;
+        margin-top: 70px;
+        font-size: 20px;
+        font-family:'Poppins';
+        float: left;
+
+    }
+    .minitablediv2text3
+    {
+        border:7px 10px 5px 10px;
+        margin-left: 100px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-family:'Poppins';
+        float: left;
+        margin-bottom: 30px;
+
+    }
+    .minitablediv2text4
+    {
+        border:7px 10px 5px 10px;
+        margin-left: 100px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-family:'Poppins';
+        float: left;
+        margin-bottom: 30px;
+    }
+    .minitabledivbutton
+    {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-left: 20%;
+        margin-top: 30px;
+        font-family:'Poppins';
+        font-size: 20px;
+       background-color: #062446;
+        margin-bottom: 30px;
+        color: white;
+        
+        
+    }
+    .maintablecontainer4
+    {
+        width: 100%;
+        float: left;
+        background-color: darkgray;
+    }
+    .section4logo
+    {
+        width:30%;
+        float:left;
+        
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .section4logo p
+    {
+        font-family:'Poppins';
+        font-size: 18px;
+        color: white;
+    }
+    .maintablecontainer4button
+    {
+        font-family:'Poppins';
+        font-size: 20px;
+        color: white;
+        
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+    .section4contactinfo
+    {
+        width: 30%;
+        float: left;
+        color: white;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding-left: 20px;
+        
+    }
+    .section4contactinfo p
+    {
+        font-size: 18px;
+        font-family:'Poppins';
+        
+
+    }
+    .section4lastpost
+    {
+        width: 30%;
+        float: left;
+        color: white;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding-left: 20px;
+        
+    }
+   
+    .footerlastdiv
+    {
+        width: 100%;
+        
+        float: left;
+       
+
+    }
+    .footerlastdiv p
+    {
+        margin-top: 30px;
+        font-size: 18px;
+        font-family:'Poppins';
+        padding-left: 40%;
+
+    }
+    /**Responsive for main container width**/
+  
+

@@ -1,0 +1,717 @@
+/**mobile device**/
+@media (min-width:768px) and (max-width:991px)
+{
+    
+	body
+	{
+		max-width: 100%;
+		margin:0px;
+	}
+	.maincontainer 
+    {
+        width: 99%;
+       
+        
+    }
+
+    .top_icons_left span, .top_icons_right span {
+        font-size: 12px;
+        padding: 9px 22px;
+    }
+    
+	
+	.top_icons_left i{
+		font-size: 10px;
+		padding: 0px 4px;
+	}
+    .top_icons_left 
+    {
+        width: 70%;
+    }
+    .top_icons_right
+    {
+        width: 30%;
+
+    }
+	.top_icons_left span, .top_icons_right span{
+		border-right: none;
+	}
+    
+    .mobliemenu li 
+    {
+        float: none;
+		border-bottom: 1px solid #173d96;
+    }
+    .mobliemenu li a
+    {
+        color: #fff;
+    }
+    .logoicon {
+        width: 50%;
+        float: left;
+        padding-left: 5%;
+    }
+    #mobliemenu
+    {
+        display: none;
+    }
+	#mobileicon
+    {
+		display: block;
+        position: absolute;
+        right: 24px;
+        top: 75px;
+        background-color: rgb(9, 9, 73);
+        border: none;
+        padding: 5px;
+	}
+	.icon-bar {
+		display: block;
+		width: 22px;
+		height: 2px;
+		border-radius: 1px;
+		margin-top: 3px;
+		background-color: #fff;
+	}
+	.menu_ul{
+		background-color: #2458d3;
+	}
+	#menu {
+		display: none;
+	}
+	.logo{
+		float: none;
+	}
+	.menu{
+     float: none;
+	}
+	.menu_ul li{
+		float: none;
+		border-bottom: 1px solid #173d96;
+	}
+	.menu_ul li a{
+		color: #fff;
+	}
+    
+    .mainbanner1
+    {
+        width:100%;
+        float: left;
+    }
+    .mainbanner2
+    {
+        width:100%;
+        float: left;
+    }
+    .smallbannertext1 {
+		width: 100%;
+		float: left;
+		padding-left: 0px;
+		font-family: 'Poppins';
+	}
+    
+    .table1 {
+		width: 45%;
+		height: 50%;
+		float: left;
+		background-color: #dbf3fd;
+		padding-left: 20px;
+		margin-left: 15px;
+		border-radius: 4px;
+		margin-bottom: 5px;
+	}
+	.table1button {
+		font-family: 'Poppins';
+		font-size: 18px;
+		margin-bottom: 0px;
+		margin-left: 80px;
+		background-color: #05afed;
+		border-radius: 15px;
+		font-weight: bold;
+		margin-top: 0px;
+		color: white;
+	}
+    .table2 {
+        width: 44%;
+        height: 50%;
+        float: left;
+        background-color: #dbf3fd;
+        padding-left: 20px;
+        margin-left: 20px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+    .table4 {
+        width: 44%;
+        height: 50%;
+        float: left;
+		background-color: #dbf3fd;
+        margin-left: 20px;
+        margin-top: 20px;
+        padding-left: 20px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+    .table3 
+    {
+        width: 44%;
+        height: 50%;
+        float: left;
+        background-color: #dbf3fd;
+        margin-left: 20px;
+        padding-left: 20px;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+    .table5 
+    {
+        width: 44%;
+        height: 50%;
+        float: left;
+        background-color: #dbf3fd;
+        margin-left: 20px;
+        padding-left: 20px;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+    .table6
+    {
+        width: 44%;
+        height: 50%;
+        float: left;
+        background-color: #dbf3fd;
+        margin-left: 20px;
+        padding-left: 20px;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+	.viewservicebutton {
+		font-family: 'Poppins';
+		font-size: 18px;
+		font-weight: bold;
+		background-color: #06aeed;
+		border-radius: 8px;
+		margin-left: 42%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+    .maintablecontainer3
+    {
+        width: 100%;
+        
+    }
+    .minitablebanner2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .minitablebanner2 img {
+        margin-left: 13%;
+    }
+	.banner3button 
+	{
+		font-family: 'Poppins';
+		font-size: 18px;
+		background-color: #06aeed;
+		border-radius: 5px;
+		margin-left: 40%;
+		margin-bottom: 20px;
+		border-radius: 15px;
+	}
+    .minitablediv1 {
+        width: 100%;
+        float: left;
+        background-color: rgb(68, 139, 206);
+        
+    }
+    .minitablediv1 p {
+        font-family: 'Poppins';
+        font-size: 26px;
+        font-weight: bold;
+        padding-left: 30%;
+        padding-top: 0px;
+    }
+    .minitablediv2 {
+        width: 100%;
+        float: left;
+        
+        margin-top: 20px;
+    }
+	.minitablediv1 
+	{
+		width: 100%;
+		float: left;
+		background-color: #0e4b84;
+	}
+	.minitablediv1 h3 {
+		font-family: 'Poppins';
+		font-size: 22px;
+		font-weight: bold;
+		padding-left: 270px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	
+	.minitablediv2text1 {
+		border: 7px 10px 5px 10px;
+		margin-left: 180px;
+		margin-top: 30px;
+		font-size: 20px;
+		padding-left: 80px;
+		padding-right: 50px;
+		font-family: 'Poppins';
+		float: left;
+	}
+	.minitablediv2text2 {
+		border: 7px 10px 5px 10px;
+		margin-left: 180px;
+		margin-top: 30px;
+		font-size: 20px;
+		padding-left: 80px;
+		padding-right: 50px;
+		font-family: 'Poppins';
+		float: left;
+	}
+	.minitablediv2text3 {
+		border: 7px 10px 5px 10px;
+		margin-left: 180px;
+		margin-top: 30px;
+		font-size: 20px;
+		padding-left: 80px;
+		padding-right: 50px;
+		font-family: 'Poppins';
+		float: left;
+	}
+	.minitablediv2text4 {
+		border: 7px 10px 5px 10px;
+		margin-left: 180px;
+		margin-top: 0px;
+		font-size: 20px;
+		padding-left: 80px;
+		padding-right: 50px;
+		font-family: 'Poppins';
+		float: left;
+	}
+	.minitabledivbutton {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-left: 35%;
+		margin-top: 30px;
+		font-family: 'Poppins';
+		font-size: 20px;
+		background-color: #062446;
+		margin-bottom: 30px;
+		color: white;
+	}
+    .section4logo {
+        width: 96%;
+        float: left;
+        
+        margin-top: 10px;
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+	.contactlogo {
+		width: 22%;
+		float: left;
+		padding: 20px;
+	}
+	
+
+	.maintablecontainer4button {
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: white;
+    background-color: rgb(98, 98, 209);
+    margin-bottom: 30px;
+    margin-left: 300px;
+	}
+    .section4contactinfo {
+        width: 95%;
+        float: left;
+        
+        margin-top: 20px;
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+    .section4lastpost {
+        width: 95%;
+        float: left;
+        
+        margin-top: 20px;
+        margin-left: 10px;
+        padding-left: 20px;
+    }
+    
+    .maintablecontainer4 {
+        width: 100%;
+        float: left;
+        background-color: darkgray;
+    }
+    .maintablecontainer4button {
+        font-family: 'Poppins';
+        font-size: 16px;
+        color: white;
+        background-color: rgb(98, 98, 209);
+        
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (min-width: 992px) {
+	.main-container {
+		width: 960px;
+		max-width: 100%;
+	}
+}
+@media (min-width: 1200px) {
+	.main-container {
+		width: 1140px;
+		max-width: 100%;
+	}
+}
+@media (min-width:340px) and (max-width:767px)
+{
+	
+	body
+	{
+		max-width: 100%;
+		margin:0px;
+		font-family: 'Poppins';
+	}
+	.maincontainer 
+    {
+        width: 89%;
+      
+        
+    }
+
+	.top_strip {
+		background-color: rgb(9, 9, 73);
+		width: 98%;
+		height: auto;
+		display: inline-block;
+	}
+    .top_icons_left span, .top_icons_right span {
+		font-size: 14px;
+		padding: 12px 30px;
+	}
+	.top_icons_left i{
+		font-size: 10px;
+		padding: 0px 4px;
+	}
+	.top_icons_left {
+		width: 95%;
+	}
+
+	
+	
+	
+	
+	.top_icons_right {
+		float: right;
+		display: none;
+	}
+    .top_icons_right
+    {
+        width: 30%;
+
+    }
+	.top_icons_left span, .top_icons_right span{
+		border-right: none;
+	}
+    .logoicon img
+	{
+		width: 100px;
+
+	}
+    .mobliemenu li 
+    {
+        float: none;
+		border-bottom: 1px solid #173d96;
+    }
+    .mobliemenu li a
+    {
+        color: #fff;
+    }
+    .logoicon {
+        width: 50%;
+        float: left;
+        padding-left: 0%;
+    }
+    #mobliemenu
+    {
+        display: none;
+    }
+	#mobileicon
+    {
+		display: block;
+        position: absolute;
+        right: 100px;
+        top: 55px;
+        background-color: rgb(9, 9, 73);
+        border: none;
+        padding: 5px;
+	}
+	.icon-bar {
+		display: block;
+		width: 22px;
+		height: 2px;
+		border-radius: 1px;
+		margin-top: 3px;
+		background-color: #fff;
+	}
+	.menu_ul{
+		background-color: #2458d3;
+	}
+	#menu {
+		display: none;
+	}
+	.logo{
+		float: none;
+	}
+	.menu{
+     float: none;
+	}
+	.menu_ul li{
+		float: none;
+		border-bottom: 1px solid #173d96;
+	}
+	.menu_ul li a{
+		color: #fff;
+	}
+   
+    .mainbanner1 
+	{
+		width: 100%;
+		
+	}
+	.mainbanner2
+    {
+        width: 100%;
+        
+        
+    }
+	.bannerimage {
+		width: 98%;
+	}
+	.aboutlogo {
+		width: 94%;
+		height: 100%;
+	}
+	.smallbannertext1 {
+		width: 100%;
+		float: left;
+		padding-left: 6px;
+		font-family: 'Poppins';
+	}
+	.smallbannertext1 h1 {
+		font-size: 21px;
+		font-family: 'Poppins';
+		color: rgb(115, 176, 255);
+		padding-left: 101px;
+	}
+	.smallbannertext1 h4 {
+		font-size: 20px;
+		font-family: 'Poppins';
+		padding-left: 12px;
+	}
+	.smallbannertext1 p {
+		font-size: 16px;
+		color: gray;
+		font-family: 'Poppins';
+	}
+	.smallbannertext3 p {
+		padding-left: 10px;
+		font-size: 18px;
+		font-family: 'Poppins';
+		color:gray
+	}
+	.table1button {
+		font-family: 'Poppins';
+		font-size: 18px;
+		margin-bottom: 10px;
+		margin-left: 30px;
+		background-color: #05afed;
+		border-radius: 15px;
+		font-weight: bold;
+		margin-top: 10px;
+		color: white;
+	}
+	
+	.serviceheading p {
+		font-size: 19px;
+		font-family: 'Poppins';
+		color: #09aef0;
+		margin-left: 6px;
+	}
+	.servicedetail p {
+		font-size: 16px;
+		font-family: 'Poppins';
+		color: grey;
+	}
+	.table1 {
+		width: 95%;
+		height: 50%;
+		float: left;
+		background-color: rgb(158, 218, 241);
+		padding-left: 4px;
+		margin-left: 10px;
+		border-radius: 4px;
+		margin-bottom: 10px;
+	}
+	.table2 {
+		width: 95%;
+		height: 50%;
+		float: left;
+		background-color: rgb(158, 218, 241);
+		padding-left: 4px;
+		margin-left: 10px;
+		border-radius: 4px;
+		margin-bottom: 10px;
+	}
+	.table3 {
+		width: 95%;
+		height: 50%;
+		float: left;
+		background-color: rgb(158, 218, 241);
+		padding-left: 4px;
+		margin-left: 10px;
+		border-radius: 4px;
+		margin-bottom: 10px;
+	}
+	.table4 {
+		width: 95%;
+		height: 50%;
+		float: left;
+		background-color: rgb(158, 218, 241);
+		padding-left: 4px;
+		margin-left: 10px;
+		border-radius: 4px;
+		margin-bottom: 10px;
+	}
+	.table5 {
+		width: 95%;
+		height: 50%;
+		float: left;
+		background-color: rgb(158, 218, 241);
+		padding-left: 4px;
+		margin-left: 10px;
+		border-radius: 4px;
+		margin-bottom: 10px;
+	}
+	.table6 {
+		width: 95%;
+		height: 50%;
+		float: left;
+		background-color: rgb(158, 218, 241);
+		padding-left: 4px;
+		margin-left: 10px;
+		border-radius: 4px;
+		margin-bottom: 10px;
+	}
+	.viewservicebutton {
+		font-family: 'Poppins';
+		font-size: 20px;
+		background-color: dodgerblue;
+		border-radius: 10px;
+		margin-left: 40%;
+	}
+	.minitablebanner2 img {
+		margin-left: 40px;
+		width: 400px;
+	}
+	
+	
+	.banner3button {
+		font-family: 'Poppins';
+		font-size: 18px;
+		background-color: dodgerblue;
+		border-radius: 5px;
+		margin-left: 40%;
+	}
+	.minitablediv1 {
+		width: 90%;
+		float: left;
+		background-color: rgb(68, 139, 206);
+		margin-top: 20px;
+	}
+	.minitablediv1 h3 {
+		font-family: 'Poppins';
+		font-size: 18px;
+		font-weight: bold;
+		padding-left: 100px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.minitablediv2 
+	{
+    	width: 93%;
+    	float: left;
+    	background-color: #051433;;
+    	margin-top: 20px;
+    	margin-left: 24px;
+	}
+	.maintablecontainer4 {
+		width: 98%;
+		float: left;
+		
+	}
+	.portfoli0details {
+		width: 50%;
+		margin-left: 0px;
+		float: left;
+		font-family: 'Poppins';
+		font-size: 16px;
+		color: gray;
+	}
+	.maintablecontainer2 {
+		width: 98%;
+		margin-top: 30px;
+		float: left;
+	}
+	.maintablecontainer3 {
+		width: 98%;
+		background-color: #051433;
+		float: left;
+	}
+	.section4logo {
+		width: 98%;
+		float: left;
+		
+	}
+	.contactlogo
+	{
+		width: 160px;
+	}
+	.section4logo p {
+		font-family: 'Poppins';
+		font-size: 14px;
+		color: white;
+	}
+	.maintablecontainer4button {
+		font-family: 'Poppins';
+		font-size: 12px;
+		color: white;
+		margin-left: 190px;
+		margin-bottom: 30px;
+	}
+	
+	.section4contactinfo {
+		width: 90%;
+		float: left;
+		color: white;
+		padding-left: 20px;
+		margin-left: 124px;
+	}
+	.section4lastpost {
+		width: 90%;
+		float: left;
+		color: white;
+		margin-top: 20px;
+		margin-left: 139px;
+		padding-left: 20px;
+	}
+}
